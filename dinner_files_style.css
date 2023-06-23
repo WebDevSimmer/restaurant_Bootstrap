@@ -1,0 +1,299 @@
+body {
+  font-size: 16px;
+  color: #e5e5e5;
+  background-color: #223255;
+  font-family: "Oxygen", sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.img1 {
+  object-fit: Cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 10px 15px 10px 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h4 {
+  /* Restaurant name */
+  font-family: "Lora", serif;
+  color: #48be6b;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+  padding-top: 11px;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p {
+  /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: 15px;
+}
+.navbar-brand p span {
+  /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951c49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a {
+  /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div {
+  /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel_footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel_footer div.row {
+  margin-bottom: 35px;
+}
+#hours > span,
+#address > span {
+  font-size: 1.5em;
+  line-height: 2;
+}
+
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+/*---- Categories---*/
+
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  box-shadow: 0 0 11px rgba(33,33,33,1);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  box-shadow:  0 0 11px rgba(33,33,33,1);
+  padding-top: 5px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE */
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  #logo-img {
+    border-radius: 50%;
+    object-fit: contain;
+    width: 120px;
+    height: 150px;
+    margin-left: 1em;
+    margin-right: 3em;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url("https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2020/09/20031908/73422523_487451788542792_8482019883670831104_o-1.jpg")
+      no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url("https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2020/09/20031908/73422523_487451788542792_8482019883670831104_o-1.jpg")
+      no-repeat;
+    height: 432px;
+  }
+  #map-tile {
+    margin-top: 30px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Jumbotron */
+ .container .jumbotron {
+    Margin-top 30px;
+    padding: 0;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+    width:100%;
+    img:
+  }
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p {
+    /* Kosher cert */
+    font-size: 0.6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img {
+    /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel_footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel_footer section:nth-child(3) {
+    margin-bottom: 0px; /* already has margin on the whole row*/
+  }
+  .panel_footer section hr {
+    width: 50%;
+  }
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  /* tiles */
+  #menu-tile,
+  #specials-tile,
+  #map-tile {
+    width: 350px;
+    margin: 0 auto 15px;
+  }
+}
+
+ .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+}

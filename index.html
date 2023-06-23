@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chez Victor</title>
+  
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.7/css/nanoscroller.min.css'>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+<header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"><img class="img1" src="logo.png" ></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html">
+             <h4>Chez Victor</h4>
+            </a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span><br class=""> home</a>
+            </li>
+            <li>
+              <a href="dinner.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="about.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a>
+              <div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+      <span class="glyphicon glyphicon-earphone"></span>
+      410-602-5008
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  <!----JUMBOTRON------>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2020/09/20031908/73422523_487451788542792_8482019883670831104_o-1.jpg" class="img-responsive visible-xs">
+    </div>
+  </div>
+
+  <!-- #tiles -->
+<div id="main-content" class="container">
+  <div id="home-tiles" class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12"><a href="dinner.html">
+        <div id="menu-tile"><span>menu</span></div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="#" onclick="$dc.loadMenuItems({randomCategoryShortName});">
+        <div id="specials-tile"><span>specials</span></div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <a href="https://goo.gl/maps/QpSUNKbAjQspZucW8" target="blank">
+        <div id="map-tile"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d755.5384664469083!2d-73.99388534890127!3d40.75864044452262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258528cef1dd7%3A0x5062203dfc6cc097!2sChez%20Josephine!5e0!3m2!1sen!2sus!4v1650535483596!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><span>Map</span></div>
+      </a>
+    </div>
+  </div>
+
+</div>
+  <!--- End of Main Content tiles--->
+
+  <footer class="panel_footer">
+    <div class="container">
+      <div class="row">
+        <section id='hours' class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri-Sat: 11:15am - 11:00pm<br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          420w 42 Street<br>
+          New York, New York
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese food in NYC"</p>
+          <p>"Amazing food and great service, will definetly be back for more"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Chez Victor 2022</div>
+    </div>
+    
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="script.js"></script> -->
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
